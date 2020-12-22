@@ -1,0 +1,95 @@
+:root {
+  --white: #ffffff;
+}
+
+@font-face {
+  font-family: "spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif";
+  src: url(https://open.scdn.co/cdn/fonts/CircularSpUIv3T-Bold.8d0a45cc.woff2);
+}
+
+.spotify-logo--text {
+  width: 120px;
+  max-width: 150px;
+  color: var(--white);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: #000000;
+  width: 201px;
+  max-width: 250px;
+  height: 100vh;
+  color: rgb(182, 182, 179);
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif";
+}
+.sidebar__nav {
+  margin-left: 20px;
+  padding-top: 23px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__options {
+  padding: 21px 0px;
+}
+.sidebar__options li {
+  list-style-type: none;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
+}
+.sidebar__options li:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+.sidebar__options li > span {
+  padding-left: 15px;
+}
+.sidebar__playlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__playlist > h4 {
+  font-weight: 300;
+  margin: 5px 0;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.sidebar__playlist > div {
+  padding: 3px 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.sidebar__playlist > div:hover {
+  color: var(--white);
+}
+.sidebar__playlist > div > span {
+  padding-left: 10px;
+}
+.create-playlist,
+.liked-songs {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__playlist .MuiSvgIcon-root {
+  font-size: 31px;
+}
+.useless-border {
+  border-bottom: 1px solid rgb(49, 49, 49);
+  margin-top: 7px;
+  /* margin-right: 18px; */
+  width: 158px;
+}
+.cookies_privacy {
+  margin-top: 100px;
+}
+.cookies_privacy p {
+  font-weight: lighter !important;
+  font-size: 10px;
+  padding-top: 5px;
+}
