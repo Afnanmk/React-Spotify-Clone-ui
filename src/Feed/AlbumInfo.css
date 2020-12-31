@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif";
+  src: url(https://open.scdn.co/cdn/fonts/CircularSpUIv3T.8d0a45cc.woff2);
+}
+
+.album-info {
+  
+  box-sizing: border-box;
+  margin: 70px;
+  margin-left: 230px;
+  margin-right: 25px;
+  width: 100%;
+  max-width: 90%;
+  min-width: 60%;
+  font-family: "spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif";
+}
+.album-info__header > span {
+  float: right;
+  margin-right: 5px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: rgb(182, 182, 179);
+}
+.album-info__cards {
+  margin-top: 23px;
+  margin-right: -10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 28%;
+  
+ 
+}
+.album-info__card {
+  /* max-width: 100%;
+  min-width: 20%; */
+  box-sizing: border-box;
+  
+  max-width: 11%;
+  min-width: 190px;
+
+  margin-right: 1.5rem;
+  padding: 17px;
+  padding-bottom: 15px;
+
+  background-color: #181818;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* SELECT 1ST CHILDs OF EACH ROW */
+.album-info__card:nth-of-type(5n+1) {
+   margin-left: 0;
+}
+
+/* SELECT LAST CHILDs OF EACH ROW */
+.album-info__card:nth-of-type(5n+0) {
+  margin-right: 0;
+}
+
+.album-info__card:hover {
+  background-color: #282828;
+  cursor: pointer;
+  
+}
+.album-info__card:hover .play-button {
+  opacity: 1;
+  
+}
+.play-button {
+  top: 47%;
+  right: 12%;
+  position: absolute;
+  border: 0;
+  background-color: #1db954;
+  color: #fff;
+  z-index: 1;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.card-img {
+  width: 155px;
+  height: 155px;
+  border-radius: 2px;
+  object-fit: cover;
+  object-position: center center;
+  position: relative;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 10px 0px;
+}
+.card-title {
+  font-size: 17px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.card-description {
+  margin-top: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+  overflow: hidden;
+  max-height: 10rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  color: rgb(182, 182, 179);
+}
+
+
+.album-section {
+  padding-bottom: 30px;
+}

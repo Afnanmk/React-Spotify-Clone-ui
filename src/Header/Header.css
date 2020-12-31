@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif";
+  src: url(https://open.scdn.co/cdn/fonts/CircularSpUIv3T.8d0a45cc.woff2);
+}
+
+.header {
+  float: right;
+  background-color: #090909;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+  position: fixed;
+  z-index: 1;
+}
+/* .arrowIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid red;
+} */
+.header button {
+  outline: none;
+  border: none;
+  background: none;
+  color: white;
+  font-family: "spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif";
+  padding: 10px 34px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  transition: 0.2s ease;
+  margin-left: 0px;
+}
+.header button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.header button:nth-of-type(2) {
+  background-color: white;
+  color: #090909;
+  border: none;
+  margin-right: 33px;
+}

@@ -17,12 +17,14 @@
 
 .sidebar {
   background-color: #000000;
-  width: 201px;
+  position: fixed;
+  z-index: 1;
+  width: 207px;
   max-width: 250px;
   height: 100vh;
   color: rgb(182, 182, 179);
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   font-family: "spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif";
 }
 .sidebar__nav {

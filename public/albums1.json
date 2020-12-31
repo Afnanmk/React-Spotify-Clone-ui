@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1609014280387-d56d6d33d618?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "title": "Top Hits Gulf",
+    "description": "The 50 hottest tracks in the Gulf region right now! Cover: Ed Sheeran"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1608833970687-99bc4f54898d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "title": "Dreamy Vibes",
+    "description": "Hypnotic bliss."
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1609008804638-1a4d863946f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "title": "Women W Bass",
+    "description": "Listen to tracks from 2020's most streamed artists"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1609065135957-a2b5c0b2c096?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "title": "Viral Hits 2020",
+    "description": "The biggest viral songs you couldn't get out of your head in 2020."
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1609063865309-0019a381287a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "title": "Cheers",
+    "description": "blackbear"
+  }
+]
